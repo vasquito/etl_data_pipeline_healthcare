@@ -42,14 +42,14 @@ Las vistas de Datos y Mapa permiten explorar los resultados de forma interactiva
   - Folium - Leaflet (SIG - GeoLocation)
   - Graphviz (Workflow)
   - matplotlib y seaborn
-
-
-## 🧪 Test: Docker Local o Pycharm
-
-### 🛠 Instrucciones de configuración
+  
 <br>
 
-#### 🚀 Local
+### 🧪 Test: Docker Local o Pycharm
+
+#### 🛠 Instrucciones de configuración
+
+##### 🚀 Local
 
 1) Contar con la imagen Localstack en el docker
 
@@ -73,7 +73,7 @@ Tu app estará disponible en http://localhost:5006 y LocalStack en http://localh
 
 ---
 
-#### 🐳 Docker
+##### 🐳 Docker
 
 1) Compilar y crear contenedor en Docker (incluye la imagen localstack)
 ```
@@ -96,9 +96,9 @@ awslocal s3 ls s3://centros-medicos-barriales/ --recursive
 
 ---
 
-## 📘 Demos (Capturas)
+### 📘 Demos (Capturas)
 
-### 1. **Panel de control ETL**
+#### 1. **Panel de control ETL**
 - Workflow ETL
 - Boton Ejecutar ETL
 - Boton Limpiar BD & S3
@@ -106,21 +106,21 @@ awslocal s3 ls s3://centros-medicos-barriales/ --recursive
 
 ![etl.png](docs/images/etl.png)
 
-### 2. **Tabla Tabulator con filtros**
+#### 2. **Tabla Tabulator con filtros**
 - Listado de centros con columnas: nombre, barrio, comuna, especialidades, teléfono
 - Filtros por comuna
 - Opción de exportar a CSV
 
 ![tabla.png](docs/images/tabla.png)
 
-### 3. **Gráficos de distribución**
+#### 3. **Gráficos de distribución**
 - **Barras horizontales**: Cantidad de centros por comuna
 - **Torta**: Distribución por especialidad
 - **Histograma**: Cantidad de centros por área programática
 
 ![graph.png](docs/images/graph.png)
 
-### 4. **Mapa interactivo con Leaflet**
+#### 4. **Mapa interactivo con Leaflet**
 - **Marcadores por centro médico**, con `popup` mostrando nombre, especialidades, dirección, teléfono
 - **Filtro por comuna** que actualice el mapa dinámicamente
 

@@ -128,7 +128,7 @@ awslocal s3 ls s3://centros-medicos-barriales/ --recursive
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Autor
 
 **Leandro Garayoa**  
 Ing. Informatica - Senior Software Engineer con enfoque técnico en Arquitectura de Software, ETLs y Soluciones de Datos, con experiencia en Big Data, analítica y visualización técnica.<br>

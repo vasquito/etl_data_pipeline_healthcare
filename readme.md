@@ -1,4 +1,4 @@
-# 🏥 Proyecto de Ingesta de datos BA para el sector de la salud
+# 🏥 Personal Challenge: ETL Healthcare - BA
 Este proyecto demuestra un flujo de trabajo completo de ingeniería de datos 
 para registros de salud sintéticos utilizando datos CABA generados por 
 Datos Abiertos de CABA. 
